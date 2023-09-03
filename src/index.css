@@ -1,4 +1,17 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+
+:root {
+--color-white: #ffffff;
+--color-blue: rgb(51, 185, 238);
+--color-violet: rgb(172, 57, 174);
+--color-red: rgb(230, 64, 64);
+--color-green: rgb(83, 207, 83);
+--color-gray: rgb(234, 228, 228);
+--color-text-first: #000000;
+--color-text-second: rgb(136, 129, 129);
+
+}
+
 
 body {
   margin: 0;
@@ -12,4 +25,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
